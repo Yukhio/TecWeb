@@ -1,0 +1,129 @@
+/*Acomodo de imagénes*/
+img {
+    height: 200px;
+    width: 250px;
+    object-fit: contain;
+    padding-left: 30px;
+    padding: justify;
+   }
+.GobMX{
+    position: center;
+}
+.EducLogo{
+    position: center;
+}
+.TecMM{
+    position: center;
+    size: 10px;
+}
+.tecColima{
+    position: center;
+    size: 10px;
+}
+.Karely{
+    position: center;
+    size: 10px;
+}
+.Henry{
+    position: center;
+    size: 10px;
+}
+.JC{
+    position: center;
+    size: 10px;
+}
+.IT{
+    position: center;
+    size: 10px;
+}
+.dash{
+    width: 1000px;
+    height: 1000px;
+}
+
+/*Barra de opciones (colores)*/
+.barra-blue{
+    text-align: center;
+    position: relative;
+    background-color: #1B396A; 
+    color: white;
+}
+.green{
+    text-align: center;
+    position: relative;
+    background-color: #245C4F; 
+    color: white;
+    
+}
+
+.legend{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*Ubicación*/
+.pos{
+    text-align: center;
+    position: center;
+    color: white;
+}
+#nav-pills{
+    text-align: center;
+    position: center;
+    color: white;
+}
+
+.map{
+    width: 400px;
+    height: 400px;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tfoot,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed thead > tr> th,
+.table-fixed tfoot > tr> td{
+  float: left;
+  border-bottom-width: 0;
+}
+.table-fixed tbody {
+    height: 230px;
+    overflow-y: auto;
+    width: 100%;
+  }
+  .table-fixed thead,
+.table-fixed tfoot{
+  width: 97%;
+}
+
+/*Alerta*/
+.alerta{
+    text-align: center;
+    color: red;
+}
+
+.success{
+    text-align: center;
+    color: rgb(71, 159, 71);
+}
+
+/*Registro*/
+.button{
+width: 100%;
+background-color: greenyellow;
+border: none;
+color: bold white;
+padding: 15px ; 
+font-size: 18px;   
+}
+.cuenta{
+    display: flex;
+    flex-direction: column;
+}
